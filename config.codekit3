@@ -27,56 +27,45 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/Section-1/hero.jpg": {
-		"ft": 16384,
-		"iS": 775321,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Section-1/hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Section-2/hero2.jpg": {
+	"/deploy/img/section-2/hero2.jpg": {
 		"ft": 16384,
 		"iS": 104961,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section-2/hero2.jpg",
+		"oAP": "/deploy/img/section-2/hero2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section-3/hero3.jpg": {
+	"/deploy/img/section-3/hero3.jpg": {
 		"ft": 16384,
 		"iS": 139189,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section-3/hero3.jpg",
+		"oAP": "/deploy/img/section-3/hero3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section-3/hero4.jpg": {
+	"/deploy/img/section-3/hero4.jpg": {
 		"ft": 16384,
 		"iS": 84293,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section-3/hero4.jpg",
+		"oAP": "/deploy/img/section-3/hero4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section-3/hero5.jpg": {
+	"/deploy/img/section-3/hero5.jpg": {
 		"ft": 16384,
 		"iS": 152155,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section-3/hero5.jpg",
+		"oAP": "/deploy/img/section-3/hero5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -100,6 +89,50 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/design/assets/2342441.jpg": {
+		"ft": 16384,
+		"iS": 152155,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/design/assets/2342441.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/design/assets/4141.jpg": {
+		"ft": 16384,
+		"iS": 104961,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/design/assets/4141.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/design/assets/4441.jpg": {
+		"ft": 16384,
+		"iS": 139189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/design/assets/4441.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/design/assets/Letterpress-Perspective-B-Cards-MockUp-6001.jpg": {
+		"ft": 16384,
+		"iS": 84293,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/design/assets/Letterpress-Perspective-B-Cards-MockUp-6001.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/design/assets/main_slide_21.jpg": {
 		"ft": 16384,
@@ -323,16 +356,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/scss/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,

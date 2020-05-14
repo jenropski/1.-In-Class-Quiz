@@ -1,3 +1,57 @@
 /* =============
     Footer
 ============= */
+
+footer{
+    background-color: $black;
+    color: $grey;
+    text-align: center;
+    padding: 45px;
+
+    #footer-content{
+        ul{
+            display: flex;
+            justify-content: center;
+
+            li{
+                margin: 0 10px;
+
+                a:link, a:visited{
+                    color: $darkgrey;
+                    transition: 0.25s;
+                    font-size: rem-calc(30);
+                }
+
+                a:hover, a:active{
+                    color: $white;
+                }
+            }
+    }
+
+ h1{
+     font-size: rem-calc(11);
+ }
+
+
+    // ul{
+    //     display: grid;
+    //     grid-template-columns: 30% auto 30%;
+    //     grid-template-areas: ". buttons .";
+
+    //     li{
+    //         grid-area: buttons;
+    //         margin: 0 10px;
+
+    //         a:link, a:visited{
+    //             color: $grey;
+    //             transition: 0.25s;
+    //         }
+
+    //         a:hover, a:active{
+    //             color: $white;
+    //         }
+    //     }
+    // }
+
+}
+}

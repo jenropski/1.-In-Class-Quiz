@@ -1,50 +1,77 @@
 /* =============
-    Section-2
+    Section 2
 ============= */
-#section-2{
 
+#section-2 {
     @include xl{
         display: grid;
         grid-template-columns: auto 1200px auto;
-        grid-template-areas: ". section-2 .";
+        grid-template-areas: ". section-2-xl .";
     }
-    
 
-    #section-2-content{
-        display: grid;
-        grid-template-areas: 
-        "section-2-text"
-        "section-2-img";
-
+    #section-2-xl{
+        grid-area: section-2-xl;
         @include md{
             display: grid;
-            grid-template-columns: 45% auto;
-            grid-template-areas: 
-            "section-2-img section-2-text";
+            grid-template-columns: 65% auto;
+            grid-template-areas: "article aside";
         }
-        
-        @include xl{
-            grid-area: section-2;
+    
+        @include lg{
+            grid-template-columns: 50% auto;
+            grid-template-areas: "aside article";
         }
-
-        aside{
-            grid-area: section-2-img;
-            img{
-                width: 100%;
+    
+    
+        aside {
+            background-image: url("../img/section-2/feet.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 320px;
+    
+            @include md {
+                height: 246px;
+                grid-area: aside;
             }
+    
+            @include lg {
+                height: 600px;
+            }
+    
         }
     
-       #section-2-right{
+        #section-2-container {
             display: grid;
+            grid-template-areas: ". section-2 .";
             grid-template-columns: 15px auto 15px;
-            grid-template-areas: ". section-2-content .";
-            grid-area: section-2-text;
+            background-color: $grey;
+            text-align: justify;
+            padding: 45px 0 100px;
     
-            #section-2-right-content{
-                grid-area: section-2-content;
+            h1 {
+                text-align: center;
+    
+                @include md{
+                    text-align: left;
+                }
+            }
+    
+            @include md{
+                grid-template-columns: 10% auto 10%;
+                padding: 20px 0 20px;
+                grid-area: article;
+            }
+    
+            @include lg{
+                padding: 130px;
+            }
+    
+            #section-2-content {
+                grid-area: section-2;
+    
+    
             }
         }
     }
 
-    
 }
