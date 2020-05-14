@@ -88,14 +88,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/index.html",
-		"oF": 2
-		},
-	"/deploy/js/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/js/index.html",
 		"oF": 0
 		},
 	"/deploy/js/scripts-min.js": {
@@ -128,13 +120,29 @@
 		"oAP": "/design/content-quiz.sketch",
 		"oF": 0
 		},
+	"/dev/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/footer.html",
+		"oF": 0
+		},
+	"/dev/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/deploy/index.html",
+		"oF": 3
+		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/index.html",
-		"oF": 2
+		"oAP": "/deploy/index.html",
+		"oF": 3
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -371,7 +379,7 @@
 "projectAttributes": {
 	"creationDate": 611166559.14117503,
 	"displayValue": "1. In-Class Quiz",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0
 	},

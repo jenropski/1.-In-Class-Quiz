@@ -350,5 +350,17 @@ textarea {
 /* =============
     Section 1
 ============= */
-#section-1 img {
-  width: 100%; }
+#section-1 {
+  background-image: url("../img/section-1/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px; }
+  @media (min-width: 768px) {
+    #section-1 {
+      height: 694px; } }
+  @media (min-width: 992px) {
+    #section-1 {
+      height: 799px; } }
+  @media (min-width: 1200px) {
+    #section-1 {
+      height: 959px; } }
