@@ -1,57 +1,75 @@
 /* =============
     Footer
 ============= */
-
 footer{
     background-color: $black;
-    color: $grey;
     text-align: center;
-    padding: 45px;
+    padding: 50px 80px;
+    // position: relative;
+    
+
+    @include lg{
+        height: 155px;
+        text-align: right;
+        // padding: 0px;
+    }
+
+    @include xl {
+        display: grid;
+        grid-template-areas: ". footer-content .";
+        grid-template-columns: auto 1200px auto;
+    }
 
     #footer-content{
-        ul{
+        grid-area: footer-content;
+        
+
+        #social-icons{
             display: flex;
             justify-content: center;
 
+            @include lg{
+                justify-content: start;
+            }
             li{
-                margin: 0 10px;
+                margin: 0 9px;
+
 
                 a:link, a:visited{
-                    color: $darkgrey;
-                    transition: 0.25s;
                     font-size: rem-calc(30);
+                    color: $darkgray;
+                    transition: 0.25s;
                 }
 
                 a:hover, a:active{
-                    color: $white;
+                    color: $darkblue;
                 }
             }
+        }
+
+        #drexel{
+            p{
+
+            color: white;
+            font-size: rem-calc(11);
+
+            @include lg{
+                // position: absolute;
+                text-align: right;
+                // justify-content: start;
+                // vertical-align: middle;
+                
+                }
+            
+            }
+        
+            span{
+                color: $orange;
+            }
+
+        }
     }
 
- h1{
-     font-size: rem-calc(11);
- }
-
-
-    // ul{
-    //     display: grid;
-    //     grid-template-columns: 30% auto 30%;
-    //     grid-template-areas: ". buttons .";
-
-    //     li{
-    //         grid-area: buttons;
-    //         margin: 0 10px;
-
-    //         a:link, a:visited{
-    //             color: $grey;
-    //             transition: 0.25s;
-    //         }
-
-    //         a:hover, a:active{
-    //             color: $white;
-    //         }
-    //     }
-    // }
-
 }
-}
+
+

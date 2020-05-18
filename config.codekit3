@@ -27,45 +27,56 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/section-2/hero2.jpg": {
+	"/deploy/img/section-1/hero.jpg": {
 		"ft": 16384,
-		"iS": 104961,
+		"iS": 775303,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-2/hero2.jpg",
+		"oAP": "/deploy/img/section-1/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/hero3.jpg": {
+	"/deploy/img/section-2/aside.jpg": {
 		"ft": 16384,
-		"iS": 139189,
+		"iS": 114702,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/hero3.jpg",
+		"oAP": "/deploy/img/section-2/aside.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/hero4.jpg": {
+	"/deploy/img/section-3/card-1.jpg": {
 		"ft": 16384,
-		"iS": 84293,
+		"iS": 71288,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/hero4.jpg",
+		"oAP": "/deploy/img/section-3/card-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/hero5.jpg": {
+	"/deploy/img/section-3/card-2.jpg": {
 		"ft": 16384,
-		"iS": 152155,
+		"iS": 80409,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/hero5.jpg",
+		"oAP": "/deploy/img/section-3/card-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/card-3.jpg": {
+		"ft": 16384,
+		"iS": 67395,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/card-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -157,24 +168,16 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/footer.html",
-		"oF": 0
-		},
-	"/dev/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/deploy/index.html",
-		"oF": 3
+		"oF": 1
 		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/index.html",
+		"oAP": "/config.codekit3",
 		"oF": 3
 		},
 	"/dev/js/scripts.js": {
@@ -195,9 +198,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/base/_base.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -208,9 +211,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/base/_normalize.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -221,9 +224,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/base/_typography.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -234,9 +237,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/components/_buttons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -247,9 +250,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/components/_forms.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -260,9 +263,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/components/_navigation.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -273,9 +276,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/helpers/_mixins.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -286,9 +289,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/helpers/_variables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -299,9 +302,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/layout/_footer.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -312,9 +315,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -325,9 +328,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/sections/_section-1.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -338,9 +341,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/sections/_section-2.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -351,9 +354,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/sections/_section-3.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -374,25 +377,25 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/section-1.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-2.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/section-2.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-3.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/section-3.html",
-		"oF": 0
+		"oF": 1
 		}
 	},
 "hooks": [
