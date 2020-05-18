@@ -38,45 +38,45 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-2/aside.jpg": {
+	"/deploy/img/section-2/hero2.jpg": {
 		"ft": 16384,
 		"iS": 114702,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-2/aside.jpg",
+		"oAP": "/deploy/img/section-2/hero2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/card-1.jpg": {
+	"/deploy/img/section-3/hero3.jpg": {
 		"ft": 16384,
 		"iS": 71288,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/card-1.jpg",
+		"oAP": "/deploy/img/section-3/hero3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/card-2.jpg": {
+	"/deploy/img/section-3/hero4.jpg": {
 		"ft": 16384,
 		"iS": 80409,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/card-2.jpg",
+		"oAP": "/deploy/img/section-3/hero4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/card-3.jpg": {
+	"/deploy/img/section-3/hero5.jpg": {
 		"ft": 16384,
 		"iS": 67395,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/card-3.jpg",
+		"oAP": "/deploy/img/section-3/hero5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
