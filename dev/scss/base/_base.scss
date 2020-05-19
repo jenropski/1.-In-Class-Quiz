@@ -1,27 +1,11 @@
 /* =============
     Base
 ============= */
-ul {
+
+ul{
     padding: 0;
-    margin: 0;
 
-    li {
+    li{
         list-style: none;
-    }
-}
-
-.content-spacing {
-    margin-top: 32px;
-
-    @include md {
-        margin-top: 40px;
-    }
-
-    @include lg {
-        margin-top: 70px;
-    }
-
-    @include xl {
-        margin-top: 80px;
     }
 }
