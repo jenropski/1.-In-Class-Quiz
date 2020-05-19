@@ -1,12 +1,100 @@
 /* =============
     Typography
 ============= */
-p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-}
 
-h1,h2,h3,h4,h5,h6{
+h1 {
+	color: $darkblue;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: rem-calc(24);
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	@include md {
+		font-size: rem-calc(38);
+	}
+	@include lg {
+		font-size: rem-calc(60);
+	}
+	@include xl {
+		font-size: rem-calc(70);
+	}
+}
+h2 {
+	color: $lightblue;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: rem-calc(16);
+	line-height: 18px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	@include md {
+		font-size: rem-calc(25);
+		line-height: 29px;
+	}
+	@include lg {
+		font-size: rem-calc(32);
+		line-height: 34px;
+	}
+}
+h3 {
+	color: black;
     font-family: 'Montserrat', sans-serif;
+	font-size: rem-calc(35);
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	@include md {
+		font-size: rem-calc(35);
+	}
+	@include lg {
+		font-size: rem-calc(45);
+    }
+    
 }
 
+h4 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: rem-calc(24);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    @include md {
+        font-size: rem-calc(24);
+    }
+    @include lg {
+        font-size: rem-calc(28);
+    }
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+	font-size: rem-calc(16);
+	font-weight: 400;
+	line-height: 25px;
+	color: black;
+	margin: 0;
+	@include lg {
+		font-size: rem-calc(19);
+	}
+}
+
+h5 {
+    font-family: 'Lato', sans-serif;
+	font-size: rem-calc(14);
+	font-weight: bold;
+	line-height: 25px;
+	color: black;
+	margin: 0;
+	@include lg {
+		font-size: rem-calc(17);
+	}
+}
+
+
+// font-family: 'Comfortaa', cursive;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Montserrat', sans-serif;
